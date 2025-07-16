@@ -3,9 +3,9 @@ This project demonstrates an end-to-end Data Engineering pipeline for processing
 
 ![Architecture](https://github.com/Abhishekmohite25/Databricks-DBT-Project-on-Flights-Dataset/blob/2ba322a4fb18720fb2d2078df250658f16b9f67c/Screenshots/Architecture.png)
 
-📊 Data Flow Overview  
+## 📊 Data Flow Overview  
 
-## 🟤 **Bronze Layer — Raw Ingestion**  
+### 🟤 **Bronze Layer — Raw Ingestion**  
 
 Tooling: Databricks Autoloader + Spark Structured Streaming
 
@@ -21,7 +21,7 @@ Storage: Raw data stored in Delta Lake format (Unity Catalog managed tables)
 
 ![Bronze Layer](https://github.com/Abhishekmohite25/Databricks-DBT-Project-on-Flights-Dataset/blob/2ba322a4fb18720fb2d2078df250658f16b9f67c/Screenshots/bronze.png)
 
-## ⚪️ **Silver Layer — Cleaned & Enriched Data**
+### ⚪️ **Silver Layer — Cleaned & Enriched Data**
 
 Tooling: Delta Live Tables (DLT)
 
@@ -35,7 +35,7 @@ Output: Refined Delta tables stored in Unity Catalog
 
 ![Silver Layer](https://github.com/Abhishekmohite25/Databricks-DBT-Project-on-Flights-Dataset/blob/2ba322a4fb18720fb2d2078df250658f16b9f67c/Screenshots/silver.png)
 
-## 🟡 **Gold Layer — Dimensional Model**
+### 🟡 **Gold Layer — Dimensional Model**
 
 Tooling: dbt integrated with Databricks
 
